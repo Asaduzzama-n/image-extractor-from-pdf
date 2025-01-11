@@ -37,9 +37,14 @@ Extracted images will be saved in the specified output folder.
 ## Code Explanation
 
 Notes
-Images with unknown filter types are saved with a .bin extension.
-Ensure your PDF has extractable images; some PDFs store images in non-standard formats or as vector graphics.
-Limitations
-This script does not handle vector graphics or complex PDF structures with nested object references beyond standard /XObject usage.
-License
+
+- Images with unknown filter types are saved with a .bin extension.
+- Ensure your PDF has extractable images; some PDFs store images in non-standard formats or as vector graphics.
+
+## Limitations
+
+-- This script does not handle vector graphics or complex PDF structures with nested object references beyond standard /XObject usage.
+
+## License
+
 This project is available under the MIT License.
